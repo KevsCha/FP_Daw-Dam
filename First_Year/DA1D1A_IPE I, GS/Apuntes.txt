@@ -1,0 +1,259 @@
+2. Conceptos basicos de prevencion
+    - Riesgo laboral: Es la posibilidad de que el trabajador sufra un daño como consecuencia de las condiciones de trabajo.
+    - Riesgo laboral grave e inminente: Es aquel  que resulta muy probable que se produzca en un futuro inmediato y puede suponer un daño grave para la salud de los trabajadores
+    - Condicion de trabajo: Cualquier forma que pueda afectar el ambiente laboral
+2.1 Condiciones de trabajo (4 grupos)
+    - equipo de trabajos
+    - local e instalaciones
+    - Condiciones medioambientales
+    - Ordenacion y organizacion
+
+2.1 Riesgos Fisicos
+    - Ruido:
+        · Daño: Fisicos, psicologicos y accidentes por falta de concentracion.
+        · Medidas preventidas: Los equipos y las formas para evitar el daño tanto individual y colectiva como 
+            Equipos, Aislar e insonorizar, EPI, Medidas organizativas, Controles medicos periodicos
+
+    Ejercicio 1 - Ruido en una fábrica de calzado
+    En una fábrica se ha realizado una medición del ruido obteniendo los siguientes resultados:
+    A) Manuel trabaja con una máquina y está expuesto en su trabajo a 92 dB de media durante su jornada laboral.
+    B) Marta trabaja en empaquetado, está expuesta a 84 dB de media durante su jornada laboral.
+    C) Noemi trabaja en la oficina. Está expuesta a 76 dB de media durante su jornada laboral.
+    Contestamos a las siguientes preguntas:
+    1. ¿A qué trabajadores está obligada la empresa a facilitarles protectores auditivos?
+        R- Manuel y Marta, Manuel esta obligado  a usarlos y Marta no esta obligada a usarlos
+    
+    2. ¿Qué trabajadores están obligados a utilizar protectores auditivos?
+        R- Manuel
+    
+    3. ¿Cada cuánto tiempo debe realizarse un reconocimiento médico a estos trabajadores?
+        R- Manuel (92 dB) → Exposición superior a 85 dB → reconocimiento médico obligatorio y anual (o con la frecuencia que indique la evaluación de riesgos, pero lo normal es cada año).
+
+        Marta (84 dB) → Entre 80–85 dB → reconocimiento médico ofrecido, recomendable cada 1–2 años según riesgo y antecedentes.
+
+        Noemí (76 dB) → Por debajo de 80 dB → no obligatorio por ruido, solo el reconocimiento médico general voluntario.
+    
+    
+    Ejercicio 2 - Vibraciones
+    
+    Anselmo trabaja con una motosierra durante la mayor parte de su jornada, solicita a su encargado que sería conveniente rotar en el puesto entre los 3 trabajadores que integran su grupo de trabajo, pero el encargado le indica que debe utilizarla él porque tiene más experiencia.
+    
+    a) ¿Es correcta la actitud de su encargado?
+        La actitud del encargado no es correcta. La rotación de puestos de trabajo es una medida preventiva importante para reducir la exposición a riesgos laborales, como las vibraciones. La experiencia de Anselmo no justifica una exposición prolongada a un riesgo que podría ser mitigado con la rotación de tareas. 
+    b) ¿Qué daños pueden provocarle a Anselmo las vibraciones a las que está expuesto?
+         Las vibraciones a las que Anselmo está expuesto por el uso prolongado de la motosierra pueden provocarle una serie de daños, entre los que se incluyen: provocarle artrosis, daños en las articulaciones, calambres, enfermedades estomacales, síndrome de Raynaud o dedo blanco.
+
+    Ejercicio 3 - Temperatura en tu sector
+
+    a) ¿En el sector que estamos estudiando hay riesgo de sufrir daños relacionados con las temperaturas?
+        
+        Riesgos para la salud: Exposición prolongada a temperaturas extremas (frío o calor excesivo) puede causar fatiga, deshidratación, golpes de calor, o, en el caso de frío, hipotermia o problemas circulatorios.
+        
+        Riesgos para la ergonomía y el rendimiento: Temperaturas inadecuadas pueden afectar la concentración, la destreza manual y el confort, disminuyendo la productividad y aumentando la probabilidad de errores.
+        
+        Riesgos para los equipos: Las temperaturas extremas (especialmente el calor) pueden dañar los equipos informáticos, lo que indirectamente afecta el entorno de trabajo y la productividad de los programadores.
+    
+    
+    b) ¿Qué temperatura deben tener legalmente los lugares de trabajo en nuestro sector?
+
+        Temperatura: Entre 17°C y 27°C.
+
+    Ejercicio 4 - Iluminación:
+
+    Indica el nivel mínimo de iluminación que debe haber en los siguientes puestos de trabajo:
+    a) Un almacén de unos grandes almacenes
+        El nivel mínimo de iluminación recomendado para un almacén con tareas de bajas exigencias visuales es de 100 lux. 
+    b) Una oficina
+        Para una oficina, el nivel de iluminación recomendado está entre 500 y 750 lux para garantizar el confort visual y una adecuada visibilidad. 
+    c) Un taller de joyería
+        Un taller de joyería requiere un nivel de iluminación elevado debido a las exigencias visuales altas para trabajos de precisión, por lo que se recomiendan 500 lux mínimos. 
+    d) Un taller mecánico
+        Para un taller mecánico, las exigencias visuales son moderadas, por lo que se recomiendan 200 lux mínimos. 
+    e) Una academia de informática
+        Similar a una oficina, una academia de informática requiere un buen nivel de iluminación para las tareas visuales, por lo que se recomiendan 500 lux mínimos. 
+    f) Un pasillo que une el almacén con la planta de producción de una fábrica por el que suele haber mucho tráfico e carretillas elevadoras.
+        Para vías de circulación de uso habitual, se recomienda un nivel de iluminación de 100 lux. 
+    g) Un taller pirotécnico.
+        Un taller pirotécnico, debido a las posibles exigencias visuales y la necesidad de seguridad, debería tener un nivel de iluminación adecuado para tareas de exigencia visual moderada o alta, por lo que se recomiendan 200 o 500 lux mínimos dependiendo de la especificidad de las tareas. 
+
+    - Radiacion:
+    - Iluminacion: 
+        · Daños: Aumento AT, fatiga ocular, escozor de ojos, dolor de cabeza, dificultad de atencion
+        · Condiciones adecuadas: Preferible luz natural, Uniforme y de adecuada intesidad, sin brillos, luz general vs luz localizada
+    
+2.3 Riesgos Fisicos en nuestro sector:
+        - Ruido = no
+        - Vibracion = no
+        - Radiacion = no
+        - Iluminación = si
+        - Temperatura = si
+        - Humedad = Si
+    
+2.4 Seguridad y salud en el trabajo - agentes quimicos y biologicos
+    
+    Son agentes biologicos o microorganismos susceptibles de originar alguna enfermedad profesional
+
+
+
+///---------------------Repaso-------------------///
+
+1. Si es obligatorio 
+Según el artículo 19 de la Ley de Prevención de Riesgos Laborales (PRL), el empresario tiene 
+la obligación de garantizar que cada trabajador reciba una formación teórica y práctica, suficiente 
+y adecuada, en materia preventiva. Esta formación debe ser impartida al inicio de la contratación, 
+cuando se produzcan cambios en las funciones del trabajador, o se introduzcan nuevas tecnologías o 
+equipos de trabajo. 
+
+2. La empresa tiene la obligación de garantizar la seguridad y salud de los trabajadores en 
+todos los aspectos relacionados con el trabajo. Esto incluye la evaluación de los riesgos, 
+como la exposición al polvo de madera, y la adopción de medidas preventivas para eliminar o 
+reducir dichos riesgos. Al no tomar medidas y responder que "no pueden hacer nada", la empresa 
+está incumpliendo sus responsabilidades en materia de PRL
+
+
+
+3. La obligación de adquirir los equipos de protección individual (EPI) corresponde a la empresa.
+La Ley de Prevención de Riesgos Laborales establece que el empresario debe proporcionar a los 
+trabajadores los equipos de protección individual necesarios para el desempeño de sus funciones, 
+sin coste alguno para el trabajador. 
+
+4.  La Ley de Prevención de Riesgos Laborales no se le aplica directamente a Marta como trabajadora autónoma.
+La Ley de PRL se aplica a las relaciones laborales por cuenta ajena. Sin embargo, si Marta trabaja en un 
+centro de trabajo del que es titular otra empresa, esta última tiene la obligación de informarle sobre los 
+riesgos del recinto, las medidas de prevención y el protocolo de actuación en caso de emergencia. 
+
+5. Sí, en este caso el reconocimiento médico sería obligatorio.
+El reconocimiento médico es voluntario, pero existen excepciones. Es obligatorio cuando así lo establece
+ una disposición legal en relación con la protección de riesgos específicos, o cuando es indispensable para
+  evaluar los efectos de las condiciones de trabajo sobre la salud de los trabajadores o para verificar si el
+   estado de salud del trabajador puede constituir un peligro para él mismo, para los demás trabajadores o para 
+   otras personas relacionadas con la empresa. En este caso, al ser un conductor de autobús, su estado de salud 
+   puede afectar la seguridad de terceros, por lo que el reconocimiento es obligatorio. 
+
+6. Indica a quién corresponden las siguientes obligaciones:
+a) Evaluar riesgos.
+    Al empresario
+b) No poner fuera de funcionamiento los dispositivos de seguridad.
+    A los trabajadores 
+c) Formar a las personas trabajadoras sobre los riesgos laborales.
+    Al empresario, tiene la obligacion de formar a los trabajadores
+d) Usar adecuadamente las máquinas, aparato y herramientas.
+    Al trabajador, tiene que tener los equipos de manera adecuada
+e) Informar a los superiores sobre los riesgos detectados.
+    EL atrabajador, debe parar apenas vea una situacion en la cual corra riesgo
+f) Realizar un plan de prevención.
+    La empresa o el empresario
+
+
+Visto en clases EPI 
+10/10/2025 
+    tema 3 prevencion de riesgos laborales, diapositiva 6
+
+    Actividades
+9. Indica la técnica de prevención que estudia cada uno de los siguientes casos
+- Pablo es administrativo, trabaja ocho horas diarias frente al ordenador. Desde hace 
+algún tiempo sufre dolores de espalda, especialmente en el cuello, los hombros y las lumbares.
+
+
+- Marina ha contraido silicosis por haber trabajado muchos años inhalando polvo de 
+silice. ¿Qué técnica estudia la enfermedad profesional que ha contraido y el agente
+ causante? ¿Qué otra técnica atenderá a Marina una vez enferma?
+
+-Julio es un auxiliar de enfermeria que lleva diez años trabajando en la sección de 
+oncología. Desde hace unos meses no tiene ilusión por nada y sueña repetidamente que 
+pierde a su mujer y a sus hijos.
+
+-Nivel de concentración máximo permitido de una sustancia tóxica en el medio ambiente laboral.
+
+-Realizar una campaña de educación sanitaria en un laboratorio industrial.
+
+-Analizar si el ambiente acústico es adecuado en una nave aeronáutica
+
+-Las vías de comunicación entre la dirección, los mandos intermedios y los trabajadores en una empresa.
+
+-Analizar si un equipo de trabajo permite optimizar la seguridad y confort del trabajador.
+
+-Evaluar la carga mental en un puesto de trabajo.
+psicosociologia
+
+La empresa se dedica a la prod de azulejos recientemente incoporo a trabajadores mediante a una ETT
+
+rodrigo a producicon y descubre que es alergico, y se hace cada vez peor, pero notifica que esta malo por 
+miedo a  que no le renueven el contrato y piensa que debe 
+
+
+14/10/2025
+
+medidas de proteccion colectiva (priorizar este que el otro)
+
+medidas de proteccion individual -> llevan EPI 
+
+Caracteristiscas de las EPI 
+
+Señalizacion de seguridad (8 pag 63)
+
+1ra 
+2da 
+3ra mireya queda en un coma que responsbilidad tiene la empresa
+
+
+
+//--------------------------Tema 4 del libro 3 del aula La organizacion y la gestion de la prevencion
+
+
+
+
+
+
+
+
+
+//----------------------------Actividad 
+(1.)Servicio de prevencion mancomunado -> conclusion
+(2.)Servicio de prevencion propio -> Conclusion
+(3.)Empresario -> Conclusion
+(4.)Servicio de prevencion propio -> Conclusion
+(5.)Empresario (si tiene la capacitacion)/Servicio de prevencion propio
+(6.)Servicio de prevencion propio -> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1)
+    a.- Servicio de prevencion ajeno
+    b.- 3 delegados + 3 representantes de emrpesa
+2)Es una actividad piroctecnica por lo tanto podria ocurrir un accidente pirotecnico y se deberia escoger
+    a.- Servicio de prevencio propio 
+    b.- 3 delegados + 3 representante de empresa
+3)Segun la actividad laboral, son 11 trabajadores y la modalidad preventiva podria ser empresario pero segun la actividad
+a realizar se corre un riesgo por lo cual tambien se podria escoger
+    a.- Servicio de prevencion propio
+    b.- 1 Delegado de prevencion
+
+
+
+
+
+
+

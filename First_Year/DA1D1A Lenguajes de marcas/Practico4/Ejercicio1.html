@@ -1,0 +1,45 @@
+<html lang="es">
+  <head>
+    <title>Práctica de formularios</title>
+  </head>
+  <body>
+    <h2>Cuestionario de personal</h2>
+    <form action="enviar.php" method="post">
+        <div>
+            <label for="usuario">Nombre</label><br>
+            <input type="text" name="usuario" size="40" maxlength="12" placeholder="Escriba aqui nombre y apellidos... ">
+        </div>
+        <br>
+        <div>
+            <label for="clave">Turno</label><br>
+            <input type="radio" name="dia" value="dia">
+            <label for="dia"> Diurno</label><br>
+            <input type ="radio" name="noche" value="noche">
+            <label for="noche">Noche</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="">Numero de miembros de la familia</label><br>
+            <input size="10"  type="text" name="edad">
+        </div>
+        <br>
+        <div>
+            <label for="clave">Idiomas que conoce:</label><br>
+            <input type="checkbox" name="frances" id="ingles">
+            <label for="frances">Frances</label><br>
+            <input type="checkbox" name="ingles" id="ingles">
+            <label for="ingles">Ingles</label>
+        </div>
+        <br>
+        <div>
+            <label for="otros">Otros:</label><br>
+            <textarea name="Comentarios" rows="6" cols="40"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Enviar datos">
+            <input type="reset" value="Volver a comenzar">
+        </div>
+    </form>
+  </body>
+</html>

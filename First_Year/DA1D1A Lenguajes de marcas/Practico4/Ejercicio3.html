@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5.3</title>
+<style>
+    
+       fieldset{
+           width: 600px;
+       }
+       form > div{
+            margin-bottom: 5px;
+       }
+       form > div > label{
+            display: inline-block;
+            min-width: 150px;    
+        }
+        form input{
+            border: solid 1.5px #00000073;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ficha de datos</h1>
+    <fieldset>
+        <legend>Toma de datos</legend>
+        <form >
+
+            <div>
+                <label for="name">Nombre: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="last_name_one">Primer Apellido</label>
+                <input type="text" name="last_name_one" id="last_name_one">
+            </div>
+            <div>
+                <label for="last_name_two">Segundo Apellido</label>
+                <input type="text" name="last_name_two" id="last_name_two">
+            </div>
+            <div>
+                <label for="addres">Domicilio</label>
+                <input type="text" size="35" name="addres" id="addres">
+            </div>
+            <div>
+                <label for="">Heavy Metal</label>
+                <span><label for="">Me gusta: </label></span>
+                <input type="radio" name="" id="">
+                <span><label for="">Es mi vida: </label></span>
+                <input type="radio" name="" id="">
+            </div>
+            <div>
+                <label for="">Series Favoritas</label>
+                <span><label for="">A dos metros bajo tierra:</label></span>
+                <input type="checkbox">
+                <span><label for="">Futurama</label></span>
+                <input type="checkbox">
+                <span><label for="">Los informaticos:</label></span>
+                <input type="checkbox">
+            </div>
+            <div>
+                <button>Enviar datos</button>
+                <button>Borrar datos</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>

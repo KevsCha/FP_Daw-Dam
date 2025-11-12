@@ -1,0 +1,11 @@
+.ejemplo2 > h1 {
+  color: gray;
+}
+
+.ejemplo2 > h2 {
+  color: orange;
+}
+
+.ejemplo2 > h3 {
+  color: yellow;
+}

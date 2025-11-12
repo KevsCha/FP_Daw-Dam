@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5.4</title>
+</head>
+<style>
+    form > div{
+        margin-bottom: 10px;
+    }
+
+</style>
+<body>
+    <h1>Productos Mexicanos de Limpieza "PROLIM"</h1>
+    <form action="">
+        <div>
+            
+            <label for="">Entrada (Elija solo una lineas de productos)</label><br>
+            <select name="entrada" id="entrada">
+                <option value="">Ninguna</option>
+                <option value="cocina">Cocina</option>
+                <option value="lavanderia">Lavandería</option>
+                <option value="habitat">Hábitat</option>
+                <option value="albercas">Albercas</option>
+                <option value="industrial">Industrial</option>
+            </select>
+        </div>
+        <div>
+            <label for="">Segundo (Puede elegir mas de un producto):</label><br>
+            <select name="segundo" id="segundo">
+                <option value="">Ninguno</option>
+                <option value="">Tergen (Detergente lavaloza neutro uso manual)</option>
+                <option value="">Spotless (Detergente líquido para máquina lavaloza)</option>
+                <option value="">Track (Pasta Multiusos)</option>
+                <option value="">Triton (Prelavador alcalino líquido)</option>
+                <option value="">DINAMO (Desengrasante Emulsificante)</option>
+                <option value="">Triton (Prelavador alcalino líquido)</option>
+                <option value="">Crystal (Limpia vidrios)</option>
+            </select>
+        </div>
+        <div>
+            <label for="cocina">Cocina</label><br>
+            <select name="cocina" id="cocina">
+                <option value="">Ninguno</option>
+                <option value="">Tergen (Detergente lavaloza neutro uso manual)</option>
+                <option value="">Spotless (Detergente líquido para maquina lavaloza)</option>
+                <option value="">Track (Pasta Multiusos)</option>
+                <option value="">Triton (Prelavador alcalino líquido)</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar datos"> &nbsp;&nbsp;
+            <input type="reset" value="Borrar datos">
+        </div>
+    </form>
+</body>
+</html>

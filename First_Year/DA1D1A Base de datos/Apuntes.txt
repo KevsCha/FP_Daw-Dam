@@ -1,0 +1,179 @@
+22/09/2025
+Base de datos PDF 2 E-R
+- Entidad fuerte
+    - Entidad Debil
+- Atributo
+- Relacion 
+    - Relacion 
+
+FORMA DE RELACIONAR 4(senalizacion)
+_____________O obligatorio univaluado
+_____________>O obligatorio multivaluado
+-------------O opcional univaluado
+------------->O opcional multivaluado
+Enfermedad profesional y Accidente profesional
+
+--- 6 grupos de enfermedad profesional
+    -
+    -
+    - Enfermedades causadas por agentes biologicos
+    -
+    - 
+    - agentes cancerigenos
+##Si no hay lesion se considera accidente en blanco
+
+Initire: es un tipo de accidente laboral que ocurre durante 
+         el trayecto habitual que el trabajador realiza entre su domicilio y su lugar de trabajo, o viceversa
+    - ir o volver al trabajo
+    - Tiempo de trayecto
+    - medio de transporte
+    - trayecto habitual
+
+SUPUESTOS:
+1) Enfermedades que no sean reconocidas como enfermedad profesional pero que contraigas por el entorno laboral
+se considerara como accidente laboral
+2) 
+3) Enfermedades INTERCURRENTE cuando una persona contrae una enfermedad en el transcurso de una recuperacion
+    "Se supone que una persona queda hospitalizado 1 semana y en ese transcurso pilla una infeccion estomacal"
+
+------------------------------------------------------------------------------------------------------------------------------------
+Práctico (actividad)
+1 Accidente de trabajo
+2 Accidente de trabajo - Articulo 156 
+    e) Las enfermedades, no incluidas en el artículo siguiente, que contraiga el trabajador con motivo de la realización de su trabajo, siempre que se pruebe que la enfermedad tuvo por causa exclusiva la ejecución del mismo.
+3 Accidente de trabajo de (cargo sindical) - 
+    b) Los que sufra el trabajador con ocasión o como consecuencia del desempeño de cargos electivos de carácter sindical, así como los ocurridos al ir o al volver del lugar en que se ejerciten las funciones propias de dichos cargos.
+4 Accidente de trabajo (Initinere) - Los que sufra el trabajador al ir o al volver del lugar de trabajo
+5 Accidente comun - El trabjador se desvio del camino entre casa y trabajo.
+6 Accidente de trabajo - 
+    c) Los ocurridos con ocasión o por consecuencia de las tareas que, aun siendo distintas a las de su grupo profesional, ejecute el trabajador en cumplimiento de las órdenes del empresario o espontáneamente en interés del buen funcionamiento de la empresa
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+CUESTIONARIO FINAL (actividad)
+
+1. El riesgo laboral se define como...
+a) El daño que sufre un trabajador como consecuencia de las condiciones en las que realiza su trabajo.
+b) La posibilidad de que el trabajador sufra un determi-nado daño como consecuencia de las condiciones en que realiza su trabajo.
+c) La posibilidad racional de que se materialice un daño en un futuro inmediato.
+d) Cualquier característica laboral que pueda influir de forma importante en la generación de riesgos.
+
+CORRECTA => B Explicación: El riesgo laboral no es el daño en sí (opción a), sino la posibilidad de que este ocurra. Además, está directamente relacionado con las condiciones del trabajo, no solo con una posibilidad futura genérica (opción c) o cualquier característica laboral (opción d). 
+
+2. Señala la afirmación correcta:
+a) La intensidad o volumen de ruido se mide en hercios.
+b) El ruido puede producir alteraciones psicológicas, tales como distracciones, cansancio y agresividad.
+c) El nivel de decibelios A mide los picos de intensidad a los que se puede llegar en un momento dado.
+d) Los rayos láser son radiaciones ionizantes.
+
+CORRECTA => La afirmación correcta es:(B) El ruido puede producir alteraciones psicológicas, tales como distracciones, cansancio y agresividad.
+Explicación: 
+La intensidad o volumen del ruido se mide en decibelios (dB), no en hercios (Hz), que es la unidad de frecuencia (opción a).
+El ruido es un factor de riesgo físico que puede tener impactos negativos en la salud mental y psicológica, como las mencionadas distracciones, cansancio y agresividad (opción b).
+El nivel de decibelios A (dBA) es una escala ponderada que se utiliza para medir el ruido de forma similar a como lo percibe el oído humano, pero no mide específicamente los picos de intensidad en un momento dado, aunque se utiliza para evaluar la exposición al ruido (opción c).
+Los rayos láser son radiaciones no ionizantes, a diferencia de los rayos X o gamma, que sí son ionizantes (opción d).
+
+3. Indica la respuesta correcta:
+a) Los rayos UVA emiten radiaciones ionizantes.
+b) Las condiciones térmicas para trabajos ligeros deben estar entre 17 y 27°C.
+c) La humedad debe ser como mínimo del 85% si existe riesgo de electricidad estática.
+d) Una de las vías de entrada al cuerpo humano de los agentes químicos y biológicos es la parenteral.
+
+CORRECTA => (d) Una de las vías de entrada al cuerpo humano de los agentes químicos y biológicos es la parenteral.
+4. Apunta la respuesta correcta:
+
+4. Apunta la respuesta correcta:
+a) Lamarca CE es un distintivo de control que certifica que el equipo o la maquinaria cumple con las exigencias de las normas europeas de seguridad y salud.
+b) Los locales deben tener, como mínimo, 3 m de altura, salvo en las oficinas, que se permiten 2,5 m.
+c) La barandilla de las escaleras será de 90 cm, minimo.
+d) Todas son correctas.
+
+CORRECTA => (a) La marca CE es un distintivo de control que certifica que el equipo o la maquinaria cumple con las exigencias de las normas europeas de seguridad y salud.
+
+5. Señala la respuesta correcta:
+a) Las radiaciones ionizantes son menos peligrosas que las radiaciones no ionizantes.
+b) Es preferible la luz localizada a la general.
+c) El valor límite ambiental es un índice que indica los ni-veles máximos de concentración de un contaminante para que este no resulte dañino para la salud humana.
+d) Los agentes biológicos del grupo 4 pueden causar una enfermedad grave en las personas, pero tienen un tra-tamiento eficaz.
+
+CORRECTA => (c) El valor límite ambiental es un índice que indica los niveles máximos de concentración de un contaminante para que este no resulte dañino para la salud humana.
+---------
+ 6. Respecto a la iluminación, señala la afirmación correcta:
+a) La iluminación debe ser uniforme y de adecuada inten-sidad, sin producir brillos, reflejos ni deslumbramientos.
+b) El lumen mide la cantidad de luz que emite una fuente luminosa.
+c) Tiene que ser como mínimo de 500 lux para realizar tareas de exigencias visuales altas.
+d) Todas son correctas.
+
+CORRECTA => D 
+Step 1: Analizar las opciones sobre iluminación
+a) La iluminación debe ser uniforme y de adecuada intensidad, sin producir brillos, reflejos ni deslumbramientos. Esta afirmación es correcta, ya que una iluminación adecuada busca evitar la fatiga visual y garantizar un ambiente de trabajo seguro y confortable. 
+b) El lumen mide la cantidad de luz que emite una fuente luminosa. Esta afirmación es correcta. El lumen es la unidad de medida del flujo luminoso, que representa la cantidad total de luz visible emitida por una fuente. 
+c) Tiene que ser como mínimo de 500 lux para realizar tareas de exigencias visuales altas. Esta afirmación es correcta. Para tareas con exigencias visuales altas, se recomienda un nivel mínimo de iluminación de 500 lux. 
+d) Todas son correctas. Dado que las afirmaciones a), b) y c) son correctas, esta opción es la respuesta correcta.
+
+
+-----------
+
+7. Señala la respuesta correcta:
+a) Cuando se analizan los factores que pueden suponer un riesgo para los trabajadores, se debe hacer desde una perspectiva física.
+b) La salud es un estado de completo bienestar físico, mental y social.
+c) La salud es la ausencia de afecciones o enfermedades.
+d) Ninguna es correcta.
+
+CORRECTA =>  b) La salud es un estado de completo bienestar físico, mental y social.
+EXPLICACION 
+a) Cuando se analizan los factores que pueden suponer un riesgo para los trabajadores, se debe hacer desde una perspectiva física. Esta afirmación es incorrecta, ya que la evaluación de riesgos laborales debe considerar también factores ergonómicos, psicosociales y químicos, entre otros. 
+b) La salud es un estado de completo bienestar físico, mental y social. Esta es la definición de salud de la Organización Mundial de la Salud (OMS), y es la afirmación correcta. 
+c) La salud es la ausencia de afecciones o enfermedades. Esta afirmación es una definición limitada de salud, ya que no considera el bienestar mental y social. 
+d) Ninguna es correcta. Dado que la opción b) es correcta, esta opción es incorrecta.
+-------------------------------
+
+
+
+8. Apunta la respuesta correcta:
+a) Condición de trabajo es cualquier característica laboral que pueda influir de forma importante en la genera-ción de riesgos graves e inminentes.
+b) La organización y la ordenación del trabajo se consi-deran parte de las condiciones de trabajo.
+c) Un riesgo laboral es grave e inminente cuando resulta muy probable que se produzca antes o después y su-ponga un daño grave para la salud de los trabajadores.
+d) Condición de trabajo es cualquier característica laboral que permita que un trabajador sufra un daño.
+
+CORRECTA =>  (a) Condición de trabajo es cualquier característica laboral que pueda influir de forma importante en la generación de riesgos graves e inminentes.
+
+EXPLICACION
+Según la Ley de Prevención de Riesgos Laborales en España (Artículo 4), una condición de trabajo se define como cualquier característica del mismo que pueda tener una influencia significativa en la generación de riesgos para la seguridad y la salud del trabajador. Esta definición abarca diversos aspectos, incluyendo las características de los locales, instalaciones, equipos, productos, la naturaleza de los agentes físicos, químicos y biológicos, los procedimientos de utilización de estos agentes, y la organización y ordenación del trabajo. 
+------------------------------------
+
+9. Indica la respuesta correcta:
+a) Son lugares de trabajo, las áreas del centro de traba-jo, edificadas o no, en las que los trabajadores deben permanecer o a las que pueden acceder por razón de su trabajo.
+b) Los lugares de trabajo incluyen también espacios como los aseos, pasillos y el hall de entrada.
+c) Un ordenador se considera equipo de trabajo.
+d) Todas son correctas.
+
+CORRECTA => (d) Todas son correctas.
+
+EXPLICACION 
+a) Son lugares de trabajo, las áreas del centro de trabajo, edificadas o no, en las que los trabajadores deben permanecer o a las que pueden acceder por razón de su trabajo. Esta afirmación es correcta y se corresponde con la definición general de lugar de trabajo en el ámbito de la prevención de riesgos laborales.
+b) Los lugares de trabajo incluyen también espacios como los aseos, pasillos y el hall de entrada. Estos espacios, aunque no sean el lugar principal de desempeño de una tarea específica, son parte del entorno laboral al que los trabajadores acceden o donde permanecen por motivos de trabajo, y por lo tanto, también se consideran lugares de trabajo en términos de prevención.
+c) Un ordenador se considera equipo de trabajo. Un ordenador es una herramienta utilizada para llevar a cabo una actividad laboral, por lo que se encuadra dentro de la definición de equipo de trabajo.
+------------------------------------
+
+10. Señala la respuesta correcta:
+a) Las vibraciones que se transmiten al interior del cuer-po humano a través de la mano o el brazo ocasionan lumbalgias, trastornos musculoesqueléticos, etc.
+b) Las vibraciones que afectan a todo el cuerpo, espe-cialmente a la columna vertebral, provocan hincha-zones y dolores en los huesos y en las articulaciones.
+c) Los rayos X son radiaciones no ionizantes.
+d) Ninguna es correcta.
+
+CORRECTA => d) Ninguna es correcta
+Explicación: 
+a) Las vibraciones que se transmiten al interior del cuerpo humano a través de la mano o el brazo ocasionan lumbalgias, trastornos musculoesqueléticos, etc. Las vibraciones mano-brazo están asociadas principalmente a trastornos en las extremidades superiores, como el síndrome del túnel carpiano o el síndrome de Raynaud, no a lumbalgias, que suelen relacionarse más con las vibraciones de cuerpo entero.
+b) Las vibraciones que afectan a todo el cuerpo, especialmente a la columna vertebral, provocan hinchazones y dolores en los huesos y en las articulaciones. Las vibraciones de cuerpo entero sí pueden afectar la columna vertebral y provocar dolores lumbares, pero la descripción de "hinchazones y dolores en los huesos y en las articulaciones" es más general y no tan específica de este tipo de exposición.
+c) Los rayos X son radiaciones no ionizantes. Los rayos X son un tipo de radiación ionizante, no no ionizante. Las radiaciones ionizantes son aquellas con suficiente energía para ionizar átomos o moléculas, lo que puede causar daño biológico. Las radiaciones no ionizantes tienen menor energía y no son capaces de ionizar la materia biológica.
+
+
+
+
+
+
+
+CREATE database ongs;
+USE ongs;
+CREATE TABLE();
