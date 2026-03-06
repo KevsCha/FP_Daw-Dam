@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vuelos[
+	<!ELEMENT vuelos (billete_avion*)>
+	<!ELEMENT billete_avion (codRuta, nombrePasajero, aeropuerto-Origen, aeropuerto-Destino, fecha, horaVuelo, estadoPCR)>
+		<!ATTLIST billete_avion cancelado CDATA #REQUIRED>
+	<!ELEMENT codRuta (#PCDATA)>
+	<!ELEMENT nombrePasajero (#PCDATA)>
+	<!ELEMENT aeropuerto-Origen (#PCDATA)>
+	<!ELEMENT aeropuerto-Destino (#PCDATA)>
+	<!ELEMENT fecha (#PCDATA)>
+	<!ELEMENT horaVuelo (#PCDATA)>
+	<!ELEMENT estadoPCR (#PCDATA)>
+]>
+<vuelos>
+    <billete_avion cancelado="no">
+        <codRuta>UK&lt;IT#85</codRuta>
+        <nombrePasajero>Kevin David Quispe Carrillo</nombrePasajero>
+        <aeropuerto-Origen>Barajas-Madrid</aeropuerto-Origen>
+        <aeropuerto-Destino>Londres</aeropuerto-Destino>
+        <fecha>01/02/2026</fecha>
+        <horaVuelo>10:30</horaVuelo>
+        <estadoPCR>Negativo</estadoPCR>
+    </billete_avion>
+    <billete_avion cancelado="si">
+        <codRuta>UK&lt;IT#85</codRuta>
+        <nombrePasajero>Kevin David Quispe Carrillo</nombrePasajero>
+        <aeropuerto-Origen>Barajas-Madrid</aeropuerto-Origen>
+        <aeropuerto-Destino>Paris</aeropuerto-Destino>
+        <fecha>01/02/2026</fecha>
+        <horaVuelo>10:30</horaVuelo>
+        <estadoPCR>Negativo</estadoPCR>
+    </billete_avion>
+</vuelos>

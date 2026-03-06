@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<numeros>
+    <numero id="1" letra1="uno">1</numero>
+    <numero id="2" letra1="dos">2</numero>
+    <numero id="6" letra1="seis">6</numero>
+</numeros>

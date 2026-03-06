@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+    <nombre>Kevin David</nombre>
+    <apellido>Quispe Carrillo</apellido>
+    <año-nacimiento>2001</año-nacimiento>
+    <residencia>
+        <ciudad>Madrid</ciudad>
+        <pais>Espania</pais>
+    </residencia>
+    <datos-contacto>
+        <telefono>631733422</telefono>
+        <email>kevinElMejor@gmail.com</email>
+        <urlLinkedin>www.linkedin.com/in/kevin-quispe</urlLinkedin>
+    </datos-contacto>
+    <descripcion-general><![CDATA[¡¡Hey!! Welcome to my portfolio! Here you will find a collection of web projects, both personal and team, that show my passion and the skill I have acquired. Enjoy exploring]]></descripcion-general>
+    <skills>
+        <Skill>
+            <nombre-skill>Java</nombre-skill>
+            <nivel>Intermedio</nivel>
+        </Skill>
+        <Skill>
+            <nombre-skill>Javascript</nombre-skill>
+            <nivel>Intermedio</nivel>
+        </Skill>
+        <Skill>
+            <nombre-skill>SQL</nombre-skill>
+            <nivel>Basico</nivel>
+        </Skill>
+    </skills>
+    <formaciones-academicas>
+        <formacion-academica>
+            <titulacion>Desarrollo de aplicaciones web</titulacion>
+            <centro-formacion>IES Clara del rey</centro-formacion>
+            <anio-titulacion>2028</anio-titulacion>
+        </formacion-academica>
+        <formacion-academica>
+            <titulacion>Desarrollo de aplicaciones Multiplataforma</titulacion>
+            <centro-formacion>IES Clara del rey</centro-formacion>
+            <anio-titulacion>2028</anio-titulacion>
+        </formacion-academica>
+    </formaciones-academicas>
+    <experiencias-laborales>
+        <experiencia-laboral>
+            <puesto>Recepcionista</puesto>
+            <empresa>Hotel Madrid</empresa>
+            <duracion>
+                <mes-anio-inicio>09-2023</mes-anio-inicio>
+                <mes-anio-fin>12-2023</mes-anio-fin>
+            </duracion>
+        </experiencia-laboral>
+    </experiencias-laborales>
+</curriculum>

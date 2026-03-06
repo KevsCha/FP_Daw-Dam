@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejercito xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ej4New.xsd">
+    <tierra>
+        <tanques>150</tanques>
+        <soldados>58</soldados>
+    </tierra>
+    <tierra>
+        <tanques>52</tanques>
+        <soldados>99</soldados>
+    </tierra>
+    <aire>
+        <aviones>41</aviones>
+        <soldados>62</soldados>
+    </aire>
+</ejercito>

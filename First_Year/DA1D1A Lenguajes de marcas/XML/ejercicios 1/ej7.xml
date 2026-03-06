@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<tipos_vehiculos>
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo>
+        <vehiculo>coche</vehiculo>
+        <vehiculo>tractor</vehiculo>
+    </terrestres>
+    <acuaticos>
+        <vehiculo>canoa</vehiculo>
+    </acuaticos>
+    <aereos>
+        <vehiculo>avioneta</vehiculo>
+        <vehiculo>helicóptero</vehiculo>
+    </aereos>
+</tipos_vehiculos>

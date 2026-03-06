@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vuelos>
+    <billete_avion cancelado="no">
+        <codRuta>UK&lt;IT#85</codRuta>
+        <nombrePasajero>Kevin David Quispe Carrillo</nombrePasajero>
+        <aeropuerto-Origen>Barajas-Madrid</aeropuerto-Origen>
+        <aeropuerto-Destino>Londres</aeropuerto-Destino>
+        <fecha>01/02/2026</fecha>
+        <horaVuelo>10:30</horaVuelo>
+        <estadoPCR>Negativo</estadoPCR>
+    </billete_avion>
+    <billete_avion cancelado="si">
+        <codRuta>UK&lt;IT#85</codRuta>
+        <nombrePasajero>Kevin David Quispe Carrillo</nombrePasajero>
+        <aeropuerto-Origen>Barajas-Madrid</aeropuerto-Origen>
+        <aeropuerto-Destino>Paris</aeropuerto-Destino>
+        <fecha>01/02/2026</fecha>
+        <horaVuelo>10:30</horaVuelo>
+        <estadoPCR>Negativo</estadoPCR>
+    </billete_avion>
+</vuelos>

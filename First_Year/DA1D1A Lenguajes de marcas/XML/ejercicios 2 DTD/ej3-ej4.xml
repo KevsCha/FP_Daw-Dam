@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum[
+<!ELEMENT curriculum (nombre, 
+                    apellido, 
+                    anio_nacimiento, 
+                    residencia, 
+                    datos-contacto, 
+                    descripcion-general, 
+                    skills, 
+                    formaciones-academicas, 
+                    experiencias-laborales)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT anio_nacimiento (#PCDATA)>
+<!ELEMENT residencia (ciudad, pais)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT pais (#PCDATA)>
+<!ELEMENT datos-contacto (telefono*, email*, urlLinkedin)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT urlLinkedin (#PCDATA)>
+<!ELEMENT descripcion-general (#PCDATA)>
+<!ELEMENT skills (skill*)>
+    <!ELEMENT skill (#PCDATA)>
+	    <!ATTLIST skill nivel CDATA #REQUIRED>
+<!ELEMENT formaciones-academicas (formacion-academica*)>
+    <!ELEMENT formacion-academica (titulacion, centro-formacion)>
+        <!ATTLIST formacion-academica anio-titulacion CDATA #REQUIRED>
+        <!ELEMENT titulacion (#PCDATA)>
+        <!ELEMENT centro-formacion (#PCDATA)>
+<!ELEMENT experiencias-laborales (experiencia-laboral*)>
+    <!ELEMENT experiencia-laboral (puesto, empresa, duracion)>
+        <!ELEMENT puesto (#PCDATA)>
+        <!ELEMENT empresa (#PCDATA)>
+        <!ELEMENT duracion (mes-anio-inicio, mes-anio-fin)>
+            <!ELEMENT mes-anio-inicio (#PCDATA)>
+            <!ELEMENT mes-anio-fin (#PCDATA)>
+]>
+<curriculum>
+    <nombre>Kevin David</nombre>
+    <apellido>Quispe Carrillo</apellido>
+    <anio_nacimiento>2001</anio_nacimiento>
+    <residencia>
+        <ciudad>Madrid</ciudad>
+        <pais>Espania</pais>
+    </residencia>
+    <datos-contacto>
+        <telefono>631733422</telefono>
+        <email>kevinElMejor@gmail.com</email>
+        <urlLinkedin>www.linkedin.com/in/kevin-quispe</urlLinkedin>
+    </datos-contacto>
+    <descripcion-general><![CDATA[¡¡Hey!! Welcome to my portfolio! Here you will find a collection of web projects, both personal and team, that show my passion and the skill I have acquired. Enjoy exploring]]></descripcion-general>
+    <skills>
+        <skill nivel="Intermedio">Java</skill>
+        <skill nivel="Intermedio">Javascript</skill>
+        <skill nivel="Basico">SQL</skill>
+    </skills>
+    <formaciones-academicas>
+        <formacion-academica anio-titulacion="2028">
+            <titulacion>Desarrollo de aplicaciones web</titulacion>
+            <centro-formacion>IES Clara del rey</centro-formacion>
+        </formacion-academica>
+        <formacion-academica anio-titulacion="2028">
+            <titulacion>Desarrollo de aplicaciones Multiplataforma</titulacion>
+            <centro-formacion>IES Clara del rey</centro-formacion>
+        </formacion-academica>
+    </formaciones-academicas>
+    <experiencias-laborales>
+        <experiencia-laboral>
+            <puesto>Recepcionista</puesto>
+            <empresa>Hotel Madrid</empresa>
+            <duracion>
+                <mes-anio-inicio>09-2023</mes-anio-inicio>
+                <mes-anio-fin>12-2023</mes-anio-fin>
+            </duracion>
+        </experiencia-laboral>
+    </experiencias-laborales>
+</curriculum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<musicos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="ej2.xsd">
+    <musico>
+        <nombre>Antonio Vivaldi</nombre>
+        <apodo>El cura pelirrojillo</apodo>
+        <fechaNacimiento>1678-03-04</fechaNacimiento>
+    </musico>
+    <musico>
+        <nombre>Johann Sebastian Bach</nombre>
+        <fechaNacimiento>1685-03-21</fechaNacimiento>
+    </musico>
+</musicos>

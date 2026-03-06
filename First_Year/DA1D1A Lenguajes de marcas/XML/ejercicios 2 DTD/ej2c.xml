@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE albumes[
+	<!ELEMENT albumes (album*)>
+	<!ELEMENT album (#PCDATA)>
+		<!ATTLIST album fecha CDATA #REQUIRED>
+]>
+<albumes>
+    <album fecha="1969"> El sulfato Atomico</album>
+    <album fecha="1971"> La Caja de Diez Cerrojos</album>
+    <album fecha="1973"> El otro yo del profesor</album>
+    <album fecha="1974"> Los cachorros majaretas</album>
+</albumes>

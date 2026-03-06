@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ejercito">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tierra" maxOccurs="2">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tanques" type="xs:integer" />
+							<xs:element name="soldados" type="xs:integer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="aire">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="aviones" type="xs:integer" />
+							<xs:element name="soldados" type="xs:integer" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <nomb_cliente>Kevs</nomb_cliente>
+    <direccion>torrejon</direccion>
+    <productos>
+        <producto cantidad="6">
+            <nombre_prod>tomate</nombre_prod>
+            <precio_unitario>2</precio_unitario>
+        </producto>
+        <producto cantidad="1">
+            <nombre_prod>camiseta</nombre_prod>
+            <precio_unitario>100</precio_unitario>
+        </producto>
+        <producto cantidad="2">
+            <nombre_prod>Pizza</nombre_prod>
+            <precio_unitario>10</precio_unitario>
+        </producto>
+    </productos>
+</pedido>

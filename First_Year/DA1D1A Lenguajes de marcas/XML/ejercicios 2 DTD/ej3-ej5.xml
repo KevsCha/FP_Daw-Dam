@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viaje-turistico[
+	<!ELEMENT viaje-turistico (clientes)>
+	<!ELEMENT clientes (cliente*)>
+	<!ELEMENT cliente (nombres, apellidos, info-viaje)>
+	<!ELEMENT nombres (#PCDATA)>
+	<!ELEMENT apellidos (#PCDATA)>
+	<!ELEMENT info-viaje (fecha-inicio, fecha-fin, origen, relacion-destino)>
+	<!ELEMENT fecha-inicio (#PCDATA)>
+	<!ELEMENT fecha-fin (#PCDATA)>
+	<!ELEMENT origen (#PCDATA)>
+	<!ELEMENT relacion-destino (nombre-ciudad, nombre-hotel)>
+		<!ATTLIST relacion-destino precio_viaje CDATA #REQUIRED>
+	<!ELEMENT nombre-ciudad (#PCDATA)>
+	<!ELEMENT nombre-hotel (#PCDATA)>
+		<!ATTLIST nombre-hotel numero_noches CDATA #REQUIRED>
+]>
+<viaje-turistico>
+    <clientes>
+        <cliente>
+            <nombres>Kevin David</nombres>
+            <apellidos>Quispe Carrillo</apellidos>
+            <info-viaje>
+                <fecha-inicio>03/09/2024</fecha-inicio>
+                <fecha-fin>22/09/2024</fecha-fin>
+                <origen>Madrid</origen>
+                <relacion-destino precio_viaje="1300€">
+                    <nombre-ciudad>Barcelona</nombre-ciudad>
+                    <nombre-hotel numero_noches="19">Hotel Barcelona</nombre-hotel>
+                </relacion-destino>
+            </info-viaje>
+        </cliente>
+        <cliente>
+            <nombres>Africa</nombres>
+            <apellidos>Narganes Ferrer</apellidos>
+            <info-viaje>
+                <fecha-inicio>03/09/2024</fecha-inicio>
+                <fecha-fin>22/09/2024</fecha-fin>
+                <origen>Madrid</origen>
+                <relacion-destino precio_viaje="1300€">
+                    <nombre-ciudad>Barcelona</nombre-ciudad>
+                    <nombre-hotel numero_noches="19">Hotel Barcelona</nombre-hotel>
+                </relacion-destino>
+            </info-viaje>
+        </cliente>
+        <cliente>
+            <nombres>Alexis</nombres>
+            <apellidos>Vernegas</apellidos>
+            <info-viaje>
+                <fecha-inicio>23/02/2026</fecha-inicio>
+                <fecha-fin>indefinido</fecha-fin>
+                <origen>Madrid</origen>
+                <relacion-destino precio_viaje="500€">
+                    <nombre-ciudad>Ciudad de México</nombre-ciudad>
+                    <nombre-hotel numero_noches="----">Hotel Ciudad de México</nombre-hotel>
+                </relacion-destino>
+            </info-viaje>
+        </cliente>
+        <cliente>
+            <nombres>Juan putero</nombres>
+            <apellidos>Ernesto</apellidos>
+            <info-viaje>
+                <fecha-inicio>23/02/2026</fecha-inicio>
+                <fecha-fin>indefinido</fecha-fin>
+                <origen>Madrid</origen>
+                <relacion-destino precio_viaje="200€">
+                    <nombre-ciudad>Caracas venezuela</nombre-ciudad>
+                    <nombre-hotel numero_noches="----">Hotel Caracas</nombre-hotel>
+                </relacion-destino>
+            </info-viaje>
+        </cliente>
+    </clientes>
+</viaje-turistico>
