@@ -12,8 +12,8 @@
 			<xs:complexType>
 				<xs:sequence>
 					<xs:element name="nombre" type="xs:string" />
-					<xs:element name="telefonofijo" type="xs:string" maxOccurs="2" />
-					<xs:element name="ttelefonoMovil" type="xs:string" minOccurs="0" />
+					<xs:element name="telefonoFijo" type="xs:string" maxOccurs="2" />
+					<xs:element name="telefonoMovil" type="xs:string" minOccurs="0" />
 				</xs:sequence>
 			</xs:complexType>
 		</xs:element>
