@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bingo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ej6XSD.xsd">
+	<bola numero="2" />
+	<bola numero="5" />
+	<bola numero="10"/>
+</bingo>

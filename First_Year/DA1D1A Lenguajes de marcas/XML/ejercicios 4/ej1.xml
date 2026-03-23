@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dispositivo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ej1.xsd">
+    <movil marca="Samsung" modelo="104X" precio="250"/>
+    <movil marca="LG" modelo="502" precio="524"/>
+    <television marca="Sony" modelo="Bravia 415" precio="1450"/>
+</dispositivo>

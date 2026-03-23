@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="empleados">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ficha" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="nombreType" />
+                            <xs:element name="edad" type="edadType" />
+                        </xs:sequence>
+                        <xs:attribute name="numero" type="numeroDeFicha" />
+                    </xs:complexType>
+                </xs:element>
+
+                
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="telefonoType">
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[0-9]{9}" />
+                    </xs:restriction>
+                </xs:simpleType>
+
+                <xs:complexType name="nombreType">
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="telefono" type="telefonoType" />
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+
+                <xs:simpleType name="edadType">
+                    <xs:restriction base="xs:integer">
+                        <xs:minExclusive value="1" />
+                        <xs:totalDigits value="3" />
+                    </xs:restriction>
+                </xs:simpleType>
+
+                <xs:simpleType name="numeroDeFicha">
+                    <xs:restriction base="xs:positiveInteger">
+                        <xs:minInclusive value="1" />
+                    </xs:restriction>
+                </xs:simpleType>
+</xs:schema>
