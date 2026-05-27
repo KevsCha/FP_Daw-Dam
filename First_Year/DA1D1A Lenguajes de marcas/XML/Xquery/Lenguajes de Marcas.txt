@@ -1,0 +1,153 @@
+BaseX
+
+Videojuegos
+a) Mostrar todos los videojuegos. 
+//videojuego
+b) Mostrar los títulos de todos los videojuegos. 
+//videojuego/titulo
+c) Mostrar los títulos de todos los videojuegos y los años de lanzamiento. 
+//videojuego/titulo | //videojuego/@anyo 
+d) Mostrar todos los títulos de videojuego que contentan la letra «T».
+ //videojuego/titulo[contains(text(),'t')] | //videojuego/titulo[contains(text(),'T')]
+e) Mostrar todos los títulos de videojuego que se hayan publicado a partir del año 2000. 
+//videojuego[@anyo>=2000]/titulo
+f) Mostrar la suma de unidades vendidas de los videojuegos creados en los años 80. 
+sum(//videojuego[(@anyo>1980) and (@anyo<1990)]/unidades-vendidas)
+g) Mostar la cantidad de videojuegos que son del género sandbox. 
+count(//genero[contains(text(), 'Sandbox')])
+
+Universidad
+Consultas simples: 
+a) Nombres de las carreras.
+//carrera/nombre
+b) Años de plan de estudio de las carreras. 
+//carrera/plan
+c) Nombre de todos los alumnos. 
+//alumno/nombre
+d) Identificadores de todas las carreras.
+//carrera/@id/string()
+e) Datos de la carrera cuyo ID es c01. 
+//carrera[@id="c01"]
+f) Centro en que se estudia de la carrera cuyo ID es c02. 
+//carrera[@id="c02"]/centro
+g) Nombre de las carreras que tengan subdirector.
+//carrera/subdirector
+h) Nombre de los alumnos que estén haciendo proyecto. 
+//carrera/subdirector
+i) Códigos de las carreras en las que hay algún alumno matriculado. 
+//carreras/carrera[@id = //alumno/estudios/carrera/@codigo]/@id
+j) Apellidos y nombre de los alumnos con beca. 
+//alumno[@beca="si"]/nombre | //alumno[@beca="si"]/apellido1 | //alumno[@beca="si"]/apellido2
+k) Nombre de las asignaturas de la titulación c04. 
+//asignatura[@titulacion="c04"]/nombre
+l) Nombre de las asignaturas de segundo trimestre. 
+//asignatura[trimestre="2"]/nombre
+m) Nombre de las asignaturas que no tienen 4 créditos teóricos. 
+//asignatura[creditos_teoricos!="4"]/nombre
+n) Código de la carrera que estudia el último alumno. 
+//alumno[last()]/estudios/carrera/@codigo
+o) Código de las asignaturas que estudian mujeres. 
+//alumno[sexo="Mujer"]/estudios/asignaturas/asignatura/@codigo
+p) Nombre de los alumnos que matriculados en la asignatura a02. 
+//alumno[estudios/asignaturas/asignatura/@codigo="a02"]/nombre
+q) Códigos de las carreras que estudian los alumnos matriculados en alguna asignatura. 
+//alumno[estudios/asignaturas/asignatura/@codigo != ""]/estudios/carrera/@codigo
+r) Apellidos de todos los hombres. 
+//alumno[sexo="Hombre"]/apellido1 | //alumno[sexo="Hombre"]/apellido2
+
+
+
+Consultas anidadas: 
+s) Nombre de la carrera que estudia Víctor Manuel. 
+t) Nombre de las asignaturas que estudia Luisa. 
+u) Primer apellido de los alumnos matriculados en «Ingeniería del Software». 
+v) Nombre de las carreras que estudian los alumnos matriculados en la asignatura 
+«Tecnología de los Alimentos». 
+w) Nombre de los alumnos matriculados en carreras que no tienen subdirector. 
+x) Nombre de las alumnos matriculados en asignaturas con 0 créditos prácticos y que 
+estudien la carrera de «I.T. Informática». 
+y) Nombre de los alumnos que estudian carreras cuyos planes son anteriores a 2002.
+
+
+
+
+Buscar nodos, es como navegar entre ficheros de Linux
+
+hay que visualizar al XML como un árbol que la raíz es la que guarda toda la info 
+
+ejemplo: 
+	- /pedido/num/etc..
+
+
+
+XQuery
+
+1. for $x in /bookstore/book/title
+return $x
+
+2. for $x in /bookstore/book
+where $x/price <=30
+return $x
+
+3. for $x in /bookstore/book
+where $x/price <=30
+return $x/title
+
+4. for $x in /bookstore/book
+where $x/price <=30
+return data($x/title)
+
+5. Mostrar los años de publicación. Etiquetar la salida con "publicacion".
+for $x in /bookstore/book
+return <publicacion>{teamoamorrrrrdata($x/year)}</publicacion>
+
+6. Mostrar los libros ordenados primero por "category" y luego por "title" en una sola consulta.
+for $x in /bookstore/book
+order by $x/@category, $x/title
+return ($x/@category, $x/title)
+
+7. Mostrar cuántos libros hay, y etiquetarlo con "total".
+for $x in /bookstore/count(book)
+return <Total>{$x}</Total>
+
+8. Mostrar los títulos de los libros y al final una etiqueta con el número total de libros.
+for $x in /bookstore/book
+return (data($x/title)), <total>{count(/bookstore/book)}</total>
+
+9. Mostrar el precio mínimo y máximo de los libros.
+let $x := /bookstore/book/price
+return (min($x), max($x))
+
+10. Mostrar el título del libro, su precio y su precio con el IVA incluido, cada uno con su propia etiqueta. Ordénalos por precio con IVA.
+for $x in /bookstore/book
+let $iva := $x/price * 1.21
+order by $iva
+return ($x/title, $x/price, $iva)
+
+
+11. Mostrar la suma total de los precios de los libros con la etiqueta "total".
+let $sum := sum(/bookstore/book/price)
+return <total>{$sum}</total>
+
+13. Mostrar cada uno de los precios de los libros, y al final una nueva etiqueta con la suma de los precios.
+olrlklk,rj.jli,jr.j
+
+14. Mostrar el título y el número de autores que tiene cada título en etiquetas diferentes.
+15. Mostrar en la misma etiqueta el título y entre paréntesis el número de autores que tiene ese título.
+16. Mostrar los libros escritos en años que terminen en "3".
+17. Mostrar los libros cuya categoría empiece por "C".
+18. Mostrar los libros que tengan una "X" mayúscula o minúscula en el título.
+19. Mostrar el título y el número de caracteres que tiene cada título, cada uno con su propia etiqueta.
+20. Mostrar todos los años en los que se ha publicado un libro eliminando los repetidos. Etiquétalos con "año".
+21. Mostrar todos los autores eliminando los que se repiten y ordenados por el número de caracteres que tiene cada autor.
+22. Mostrar los títulos en una tabla de HTML
+
+
+
+
+
+
+
+
+
+

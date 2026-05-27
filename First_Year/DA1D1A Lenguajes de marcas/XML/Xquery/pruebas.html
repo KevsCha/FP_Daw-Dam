@@ -1,0 +1,12 @@
+<table>
+	<tr>
+		  <th>Titulo del libro</th>
+	</tr>
+	{
+	for $x in /bookstore/book/title
+	return (<tr>
+		          <td>{data($x)}</td>
+			          </tr>)
+				  }
+</table>
+
